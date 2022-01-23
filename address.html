@@ -2,23 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Оформление заказа</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <h2>Введите ваш адрес, куда доставить</h2>
+    <hr>
+    <form action="ready.html">
+        <div>
+            <p>Город</p>
+            <p><input type="text" name="city" placeholder="Куда везти"></p>
+        </div>
+        <div>
+            <p>Улица</p>
+            <p><input type="text" name="street" placeholder="Немного точнее"></p>
+        </div>
+        <div>
+            <p>Дом, корпус и строение</p>
+            <p><input type="text" name="home" placeholder="Немного точнее"></p>
+        </div>
+        <div>
+            <p>Пожелания и примечания, если есть</p>
+            <p><textarea name="wishes" id="1" cols="30" rows="10"></textarea></p>
+        </div>
 
-Введите ваш адрес, куда доставить
-
----
-
-Город
-Куда везти
-Улица
-Немного точнее
-Дом, корпус и строение
-Пожелания и примечания, если есть
-
-Продолжить
-
+        <p><button>Продолжить</button></p>
+    </form>
 </body>
 </html>
